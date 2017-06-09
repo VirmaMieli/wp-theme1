@@ -1,0 +1,90 @@
+/*
+Theme Name: My First Theme
+Theme URI: 
+Author: Antti Pehkonen
+Author URI: 
+Description: Making my first own theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: my-first-theme
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html {
+	height: 100%;
+	background: #002e5d;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	line-height: 1.5em;
+}
+
+#site-header {
+	text-align: center;
+}
+
+#site-header h1 {
+	font-size:32px;
+	color: #ffffff;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+#site-container {
+	max-width: 855px;
+	margin:0 auto;
+}
+
+#site-sidebar {
+	width:220px;
+	float:right;
+	padding: 22px;
+	border-radius:5px;
+	background: #fff;
+}
+
+#site-content {
+	float:left;
+	max-width:525px;
+	min-width: 200px;
+	background: #fff;
+	padding: 22px;
+	border-radius:5px;
+}
+
+#site-content a {
+	color: #002e5d;
+	text-decoration: none;
+}
+
+#site-footer {
+	clear:both;
+	color: #fff;
+	text-align:center;
+	font-size:12px;
+	text-transform: uppercase;
+}
+
+/* Menu styling */
+
+#header-menu {
+	text-align:center;
+}
+
+#header-menu ul {
+	padding:0px;
+}
+
+#header-menu li {
+	display:inline-block;
+	padding: 0 8px;
+}
+
+#header-menu a {
+	color: #ccc;
+	text-decoration: none;
+}
+
+#header-menu a:hover {
+	color: #fff;
+}
